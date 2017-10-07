@@ -1,0 +1,24 @@
+{
+  "name": "koa-response-dispatcher",
+  "version": "0.1.0",
+  "description": "The module to simplify typical koa response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkhv/koa-response-dispatcher.git"
+  },
+  "keywords": [
+    "koa",
+    "response",
+    "helper"
+  ],
+  "author": "Vladislav Khvostov",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/vkhv/koa-response-dispatcher/issues"
+  },
+  "homepage": "https://github.com/vkhv/koa-response-dispatcher#readme"
+}
