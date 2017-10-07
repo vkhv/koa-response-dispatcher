@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/vkhv/koa-response-dispatcher/issues"
   },
-  "homepage": "https://github.com/vkhv/koa-response-dispatcher#readme"
+  "homepage": "https://github.com/vkhv/koa-response-dispatcher#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "jest": "^21.2.1",
+    "koa": "^2.3.0"
+  }
 }
