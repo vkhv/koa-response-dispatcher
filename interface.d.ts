@@ -8,5 +8,5 @@ export declare type Options = {
 };
 
 interface koaResponseDispatcher extends Function {
-    (ptions: Options): Promise<any>
+    (options: Options): Promise<any>
 }
