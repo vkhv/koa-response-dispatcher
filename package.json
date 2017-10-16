@@ -4,7 +4,7 @@
   "description": "The module to simplify typical koa response",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,10 @@
   "devDependencies": {
     "@types/koa": "^2.0.39",
     "jest": "^21.2.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "koa-router": "^7.2.1",
     "koa": "^2.3.0"
   }
 }

@@ -7,6 +7,6 @@ export declare type Options = {
     errorStatusDescription: string;
 };
 
-interface koaResponseDispatcher extends Function {
+export interface koaResponseDispatcher extends Function {
     (options: Options): Promise<any>
 }
