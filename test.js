@@ -1,5 +1,4 @@
-const koaResponseDispatcherFactory = {};
-const koaResponseDispatcher = () => {};
+const koaResponseDispatcher = require('./src/');
 const request = require('supertest');
 const koa = require('koa');
 const app = new koa();
@@ -9,7 +8,7 @@ app.use(router.routes())
 	.use(router.allowedMethods());
 
 router.get('/test', async(ctx, next) => {
-	await koaResponseDispatcher({
+	await koaResponseDispatcher(ctx, {
 		url: '/test',
 		method: '/GET',
 		body: 'Hello world',
